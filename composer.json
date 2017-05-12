@@ -1,6 +1,6 @@
 {
 	"name": "mage2pro/flag"
-	,"version": "0.0.2"
+	,"version": "0.0.3"
 	,"description": "A Magento 2 interface to the lipis/flag-icon-css library."
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro"
@@ -19,6 +19,5 @@
 		,"Magento"
 		,"Magento 2"
 		,"Magento extension"
-		,"lipis/flag-icon-css"
 	]
 }
