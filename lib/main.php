@@ -22,6 +22,10 @@ function df_flag_span($iso2, $content = null) {return df_flag_tag($iso2, $conten
  * Magento 2 core and third-party design themes can add a lot of styles to `span.flag-icon`.
  * In this case I use `div`instead of `span`.
  * @used-by df_flag_span()
+ * @used-by https://github.com/frugue/store/blob/1.0.1/view/frontend/templates/switcher.phtml#L19
+ * @used-by https://github.com/frugue/store/blob/1.0.1/view/frontend/templates/switcher.phtml#L29
+ * @used-by https://github.com/inkifi/store/blob/0.0.3/view/frontend/templates/switcher.phtml#L19
+ * @used-by https://github.com/inkifi/store/blob/0.0.3/view/frontend/templates/switcher.phtml#L29
  * @param string $iso2
  * @param string $content [optional]
  * @param string $tag [optional]
