@@ -15,6 +15,18 @@ function df_flag_link() {return df_link_inline(df_asset_name(null, 'Df_Flag', 'c
  * @param string $content [optional]
  * @return string
  */
-function df_flag_span($iso2, $content = null) {return df_tag(
-	'span', 'flag-icon flag-icon-' . strtolower('uk' === $iso2 ? 'gb' : $iso2), $content
+function df_flag_span($iso2, $content = null) {return df_flag_tag($iso2, $content);}
+
+/**
+ * 2018-09-17
+ * Magento 2 core and third-party design themes can add a lot of styles to `span.flag-icon`.
+ * In this case I use `div`instead of `span`.
+ * @used-by df_flag_span()
+ * @param string $iso2
+ * @param string $content [optional]
+ * @param string $tag [optional]
+ * @return string
+ */
+function df_flag_tag($iso2, $content = null, $tag = 'span') {return df_tag(
+	$tag, 'flag-icon flag-icon-' . strtolower('uk' === $iso2 ? 'gb' : $iso2), $content
 );}
