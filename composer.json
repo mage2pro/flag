@@ -1,6 +1,6 @@
 {
 	"name": "mage2pro/flag"
-	,"version": "1.0.5"
+	,"version": "1.1.0"
 	,"description": "A Magento 2 interface to the lipis/flag-icon-css library."
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro"
@@ -11,7 +11,7 @@
 		"homepage": "https://www.upwork.com/fl/mage2pro",
 		"role": "Developer"
 	}]
-	,"require": {"mage2pro/core": ">=2.6.19"}
+	,"require": {"mage2pro/core": ">=9.0.4"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\Flag\\": ""}}
 	,"keywords": [
 		"Country flag"

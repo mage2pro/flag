@@ -14,10 +14,7 @@ function df_flag_link():string {return df_link_inline(df_asset_name(null, 'Df_Fl
  * @used-by https://github.com/inkifi/store/blob/0.0.3/view/frontend/templates/switcher.phtml#L19
  * @used-by https://github.com/inkifi/store/blob/0.0.3/view/frontend/templates/switcher.phtml#L29
  * @used-by https://github.com/mage2pro/portal-stripe/blob/0.5.6/view/frontend/templates/page/customers.phtml#L29
- * @param string $iso2
- * @param string $content [optional]
- * @param string $tag [optional]
  */
-function df_flag_tag($iso2, $content = null, $tag = 'span'):string {return df_tag(
+function df_flag_tag(string $iso2, string $content = '', string $tag = 'span'):string {return df_tag(
 	$tag, 'flag-icon flag-icon-' . strtolower('uk' === $iso2 ? 'gb' : $iso2), $content
 );}
