@@ -17,8 +17,7 @@ function df_flag_link():string {return df_link_inline(df_asset_name(null, 'Df_Fl
  * @param string $iso2
  * @param string $content [optional]
  * @param string $tag [optional]
- * @return string
  */
-function df_flag_tag($iso2, $content = null, $tag = 'span') {return df_tag(
+function df_flag_tag($iso2, $content = null, $tag = 'span'):string {return df_tag(
 	$tag, 'flag-icon flag-icon-' . strtolower('uk' === $iso2 ? 'gb' : $iso2), $content
 );}
