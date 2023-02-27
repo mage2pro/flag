@@ -3,7 +3,7 @@
  * 2017-05-13
  * @used-by https://github.com/mage2pro/portal-stripe/blob/0.3.9/view/frontend/templates/page/customers.phtml#L32
  */
-function df_flag_link():string {return df_link_inline(df_asset_name(null, 'Df_Flag', 'css'));}
+function df_flag_link():string {return df_link_inline(df_asset_name(null, 'Dfe_Flag', 'css'));}
 
 /**
  * 2018-09-17
